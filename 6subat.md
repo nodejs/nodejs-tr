@@ -4,7 +4,7 @@ Atom, nw.js artık io.js ile uyumlu ayrıca; Linux Tracing ve daha fazlası.
 
 Bundan sonra her cuma io.js dünyası ile ilgili gelişmeleri bildireceğimiz haftalık bir bildiri yayınlayacağız.
 
-Biz node geçmişinize baktığımız zaman geçen Ocak ayı 3. en aktif ay olarak gözüküyor (294 güncelleme) ve neredeyse 
+Biz node geçmişine baktığımız zaman geçen Ocak ayı 3. en aktif ay olarak gözüküyor (294 güncelleme) ve neredeyse 
 3 yıl içerisinde tek en aktif ay. (En son Şubat 2012 yılında 308 güncelleme var). Gördüklerimiz ışığında Şubat ayının 
 daha aktif geçmesini bekliyoruz.
 
