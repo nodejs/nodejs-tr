@@ -5,6 +5,7 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 ## io.js Türkiye için sosyal medya hesapları;
 
 [https://twitter.com/iojs_tr](https://twitter.com/iojs_tr)
+
 [https://medium.com/@iojs_tr](https://medium.com/@iojs_tr)
 
 ## io.js Türkiye
