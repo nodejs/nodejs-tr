@@ -15,4 +15,7 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 - Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
 - Ayhan KURU ([@ayhankuru](https://github.com/ayhankuru))
 
+
+[Orjinal io.js medium.com yazıları](https://github.com/iojs/website/labels/evangelism)
+
 Lütfen bu açık platformun, ülkemizde yayılması için Türkiye takımına destek olalım.
