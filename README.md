@@ -10,6 +10,13 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 
 [![iojs_tr Sohbet odası](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/iojs/iojs-tr)
 
+## Medium Yazı Toplulukları
+
+[![iojs_tr Haftalık Bülten Yazıları ](https://badges.gitter.im/gitterHQ/gitter.png)](https://medium.com/iojstr-haftalik-bulten)
+
+[![iojs Hakkında Türkçe Yazılar ](https://badges.gitter.im/gitterHQ/gitter.png)](https://medium.com/iojs-hakkinda-yazilar)
+
+
 ## io.js Türkiye Ekibi
 
 - Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
