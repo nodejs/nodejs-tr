@@ -36,6 +36,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #g
  * generators:
+ * governance model:
 
 #s
  * strict mode:
