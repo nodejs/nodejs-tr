@@ -29,15 +29,99 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 [w](#w) -
 [x](#x) -
 [y](#y) -
-[z](#z)
+[z](#z) -
 
-#a
- * arrow functions:
+#A
+ * Arrow Functions:
 
-#g
- * generators:
- * governance model:
+#B
 
-#s
- * strict mode:
- * stream
+
+#C
+ * Const:
+ * Classes:
+
+
+#D
+ * Destructor:
+
+
+#E
+
+
+#F
+
+
+#G
+ * Generators:
+ * Governance Model:
+
+#H
+
+
+#İ
+ * İterators:
+
+
+#J
+
+
+#K
+
+
+#L
+ * Let:
+
+
+#M
+ * Map:
+ * WeakMap
+
+
+#N
+
+
+#O
+ * Object literal extensions:
+
+
+#P
+ * Promises:
+ * Proxies:
+
+#Q
+
+
+#R
+ * Reject:
+ * Resolve:
+
+#S
+ * Strict Mode:
+ * Stream:
+ * Set:
+ * Symbols:
+
+
+#T
+ * Template:
+
+#U
+
+
+#V
+
+
+#W
+ * WeakMap:
+ * WeakSet:
+
+
+#X
+
+
+#Y
+
+
+#Z
+
