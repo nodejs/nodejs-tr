@@ -28,3 +28,13 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 [Orjinal io.js Medium.com Yazıları](https://medium.com/@iojs)
 
 Lütfen bu açık platformun, ülkemizde yayılması için Türkiye takımına destek olalım.
+
+#### Değişiklikleri takip etmek için
+
+```sh
+git remote add upstream git@github.com:iojs/iojs-tr.git
+```
+
+```sh
+$ git pull upstream
+```
