@@ -40,3 +40,4 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #s
  * strict mode:
+ * stream
