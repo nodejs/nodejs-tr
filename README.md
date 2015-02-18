@@ -12,9 +12,9 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 
 ## Medium Yazı Toplulukları
 
-[![iojs_tr Haftalık Bülten Yazıları ](https://badges.gitter.im/gitterHQ/gitter.png)](https://medium.com/iojstr-haftalik-bulten)
+[iojs_tr Haftalık Bülten Yazıları ](https://medium.com/iojstr-haftalik-bulten)
 
-[![iojs Hakkında Türkçe Yazılar ](https://badges.gitter.im/gitterHQ/gitter.png)](https://medium.com/iojs-hakkinda-yazilar)
+[iojs Hakkında Türkçe Yazılar ](https://medium.com/iojs-hakkinda-yazilar)
 
 
 ## io.js Türkiye Ekibi
