@@ -35,26 +35,30 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Arrow Functions:
 
 #B
+ * Build: Yapı
 
 
 #C
- * Const:
- * Classes:
+ * Const: Sabit
+ * Classes: Sınıf
+ * Container: 
+ * Committee: Komite
 
 
 #D
  * Destructor:
+ * Docker: 
 
 
 #E
 
 
 #F
-
+ * Framework: Framework (Olduğu gibi kalma taraftarıyım)
 
 #G
  * Generators:
- * Governance Model:
+ * Governance Model: Yönetim Modeli
 
 #H
 
@@ -74,7 +78,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #M
- * Map:
+ * Map: Haritalama
  * WeakMap
 
 
@@ -95,16 +99,18 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #R
  * Reject:
  * Resolve:
+ * Release: Yayın (Tam uygun olmasada sürüm yayınlandı olarak kullanılması mantıklı)
 
 #S
- * Strict Mode:
+ * Strict Mode: Katı Mod
  * Stream:
- * Set:
- * Symbols:
+ * Set: Ayar
+ * Symbols: Semboller
 
 
 #T
- * Template:
+ * Template: Şablon (Template olarak kalması taraftarıyım)
+ * Tracing: İzleme
 
 #U
 
@@ -115,7 +121,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #W
  * WeakMap:
  * WeakSet:
-
+ * Website: Website
 
 #X
 
