@@ -54,7 +54,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #F
- * Framework: Framework (Olduğu gibi kalma taraftarıyım)
+ * Framework: Framework
 
 #G
  * Generators:
@@ -99,7 +99,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #R
  * Reject:
  * Resolve:
- * Release: Yayın (Tam uygun olmasada sürüm yayınlandı olarak kullanılması mantıklı)
+ * Release: Yayın
 
 #S
  * Strict Mode: Katı Mod
@@ -109,7 +109,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #T
- * Template: Şablon (Template olarak kalması taraftarıyım)
+ * Template: Şablon
  * Tracing: İzleme
 
 #U
