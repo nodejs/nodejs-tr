@@ -41,23 +41,24 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #C
  * Const: Sabit
  * Classes: Sınıf
- * Container: 
+ * Container:
  * Committee: Komite
 
 
 #D
  * Destructor:
- * Docker: 
+ * Docker: (docker.com servisini temsil ettiği için çevrilmesine gerek yok diye düşünüyorum.)
 
 
 #E
 
 
 #F
- * Framework: Framework (Olduğu gibi kalma taraftarıyım)
+ * Framework: Framework (Olduğu gibi kalma taraftarıyım) (Bence "iskelet" bu kelimenin yazılım sektöründeki tam karşılığıdır.)
 
 #G
  * Generators:
+ * Governance: Yönetim Biçimi (Çevirinin bazı yerlerinde böyle kullanmak daha mantıklı. Open Source Governance Açık kaynak yönetimi olarak çevrilirse yanlış olur. Açık Kaynağın Yönetimi anlamı çıkar. Burada ki anlam Open Source'un bir yönetim biçimi olduğu )
  * Governance Model: Yönetim Modeli
 
 #H
@@ -130,4 +131,3 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #Z
-
