@@ -27,7 +27,7 @@ something there you feel you can tackle, please [make a pull request](https://gi
 
 In addition, using [Nodebug.me](http://nodebug.me/) is a good way to help Triage the issues in the backlog.
 
-## Where do discussions take place?
+## Tartışmalar Nerede Gerçekleşiyor?
 
 There is an #io.js channel on Freenode IRC. We keep logs of the channel [here](http://logs.libuv.org/io.js/latest).
 
