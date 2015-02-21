@@ -22,7 +22,8 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 - Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
 - Ayhan KURU ([@ayhankuru](https://github.com/ayhankuru))
 - Enver Arslan ([@enverarslan](https://github.com/enverarslan))
-- Behcet ([@behcet-li](https://github.com/behcet-li))
+- Behcet ([@behcet-li](https://github.com/behcet-li)) 
+- Mustafa Özgüner ([@mustafaozguner](https://github.com/mustafaozguner))
 
 
 [Orjinal io.js Medium.com Yazıları](https://medium.com/@iojs)
