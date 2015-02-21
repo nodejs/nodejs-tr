@@ -41,7 +41,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #C
  * Const: Sabit
  * Classes: Sınıf
- * Container: 
+ * Container:
  * Committee: Komite
 
 
@@ -58,6 +58,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #G
  * Generators:
+ * Governance: Yönetim Biçimi
  * Governance Model: Yönetim Modeli
 
 #H
@@ -130,4 +131,3 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #Z
-
