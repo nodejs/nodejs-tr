@@ -47,7 +47,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #D
  * Destructor:
- * Docker: (Çevrilmesi gereken bir gelime değildir. docker.com bir servistir.)
+ * Docker: (docker.com servisini temsil ettiği için çevrilmesine gerek yok diye düşünüyorum.)
 
 
 #E
