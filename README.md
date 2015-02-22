@@ -24,18 +24,17 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 - Enver Arslan ([@enverarslan](https://github.com/enverarslan))
 - Behcet ([@behcet-li](https://github.com/behcet-li)) 
 - Mustafa Özgüner ([@mustafaozguner](https://github.com/mustafaozguner))
+- Barış Güler ([@hwclass](https://github.com/hwclass))
 
 
 [Orjinal io.js Medium.com Yazıları](https://medium.com/@iojs)
 
 Lütfen bu açık platformun, ülkemizde yayılması için Türkiye takımına destek olalım.
 
+
 #### Değişiklikleri takip etmek için
-
 ```sh
-git remote add upstream git@github.com:iojs/iojs-tr.git
-```
-
-```sh
-$ git pull upstream
+$ git remote add upstream git@github.com:iojs/iojs-tr.git
+$ git fetch upstream
+$ git merge upstream/master
 ```
