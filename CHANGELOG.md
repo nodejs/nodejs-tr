@@ -1,5 +1,156 @@
 # io.js ChangeLog
 
+## 2015-02-20, Version 1.3.0, @rvagg
+
+### Notable changes
+
+* **url**: `url.resolve('/path/to/file', '.')` now returns `/path/to/` with the trailing slash, `url.resolve('/', '.')` returns `/`. [#278](https://github.com/iojs/io.js/issues/278) (Amir Saboury)
+* **tls**: The default cipher suite used by `tls` and `https` has been changed to one that achieves Perfect Forward Secrecy with all modern browsers. Additionally, insecure RC4 ciphers have been excluded. If you absolutely require RC4, please specify your own cipher suites. [#826](https://github.com/iojs/io.js/issues/826) (Roman Reiss)
+
+### Known issues
+
+* Surrogate pair in REPL can freeze terminal [#690](https://github.com/iojs/io.js/issues/690)
+* Not possible to build io.js as a static library [#686](https://github.com/iojs/io.js/issues/686)
+* `process.send()` is not synchronous as the docs suggest, a regression introduced in 1.0.2, see [#760](https://github.com/iojs/io.js/issues/760) and fix in [#774](https://github.com/iojs/io.js/issues/774)
+* Calling `dns.setServers()` while a DNS query is in progress can cause the process to crash on a failed assertion [#894](https://github.com/iojs/io.js/issues/894)
+
+### Commits
+
+* [[`35ed79932c`](https://github.com/iojs/io.js/commit/35ed79932c)] - **benchmark**: add a few querystring benchmarks (Brian White) [#846](https://github.com/iojs/io.js/pull/846)
+* [[`c6fd2c5e95`](https://github.com/iojs/io.js/commit/c6fd2c5e95)] - **buffer**: fix pool offset adjustment (Trevor Norris)
+* [[`36a779560a`](https://github.com/iojs/io.js/commit/36a779560a)] - **buffer**: expose internals on binding (Vladimir Kurchatkin) [#770](https://github.com/iojs/io.js/pull/770)
+* [[`e63b51793b`](https://github.com/iojs/io.js/commit/e63b51793b)] - **crypto**: fix to check ext method for shared lib (Shigeki Ohtsu) [#800](https://github.com/iojs/io.js/pull/800)
+* [[`afdef70fcc`](https://github.com/iojs/io.js/commit/afdef70fcc)] - **doc**: update AUTHORS list (Rod Vagg) [#900](https://github.com/iojs/io.js/pull/900)
+* [[`1bf91878e7`](https://github.com/iojs/io.js/commit/1bf91878e7)] - **doc**: add TC meeting 2015-02-04 minutes (Rod Vagg) [#876](https://github.com/iojs/io.js/pull/876)
+* [[`9e05c8d2fc`](https://github.com/iojs/io.js/commit/9e05c8d2fc)] - **doc**: remove outdated language on consensus (Emily Rose)
+* [[`ed240f44f7`](https://github.com/iojs/io.js/commit/ed240f44f7)] - **doc**: document 'ciphers' option of tls.connect (Roman Reiss) [#845](https://github.com/iojs/io.js/pull/845)
+* [[`0555b3c785`](https://github.com/iojs/io.js/commit/0555b3c785)] - **doc**: fix typo miliseconds -> milliseconds (jigsaw) [#865](https://github.com/iojs/io.js/pull/865)
+* [[`fc6507dd4e`](https://github.com/iojs/io.js/commit/fc6507dd4e)] - **doc**: add comma in README to increase clarity (Jimmy Hsu)
+* [[`f0296933f8`](https://github.com/iojs/io.js/commit/f0296933f8)] - **doc**: correct `it's` to `its` in process (Charmander) [#837](https://github.com/iojs/io.js/pull/837)
+* [[`e81731ad18`](https://github.com/iojs/io.js/commit/e81731ad18)] - **doc**: add geek as collaborator (Wyatt Preul) [#835](https://github.com/iojs/io.js/pull/835)
+* [[`4ca7cca84a`](https://github.com/iojs/io.js/commit/4ca7cca84a)] - **doc**: grammar fix in smalloc (Debjeet Biswas) [joyent/node#9164](https://github.com/joyent/node/pull/9164)
+* [[`30dca66958`](https://github.com/iojs/io.js/commit/30dca66958)] - **doc**: fix code syntax (Dan Dascalescu) [joyent/node#9198](https://github.com/joyent/node/pull/9198)
+* [[`8c1df7a8a8`](https://github.com/iojs/io.js/commit/8c1df7a8a8)] - **doc**: use correct signature for assert() (Andrei Sedoi) [joyent/node#9003](https://github.com/joyent/node/pull/9003)
+* [[`ba40942ad2`](https://github.com/iojs/io.js/commit/ba40942ad2)] - **doc**: fix sentence grammar timers.markdown (Omer Wazir) [#815](https://github.com/iojs/io.js/pull/815)
+* [[`789ff959be`](https://github.com/iojs/io.js/commit/789ff959be)] - **doc**: increase mark class contrast ratio (Omer Wazir) [#824](https://github.com/iojs/io.js/pull/824)
+* [[`122a1758d1`](https://github.com/iojs/io.js/commit/122a1758d1)] - **doc**: better font-smoothing for firefox (Jeremiah Senkpiel) [#820](https://github.com/iojs/io.js/pull/820)
+* [[`982b143ab3`](https://github.com/iojs/io.js/commit/982b143ab3)] - **doc**: disable font ligatures (Roman Reiss) [#816](https://github.com/iojs/io.js/pull/816)
+* [[`cb5560bd62`](https://github.com/iojs/io.js/commit/cb5560bd62)] - **doc**: Close code span correctly (Omer Wazir) [#814](https://github.com/iojs/io.js/pull/814)
+* [[`c3c2fbdf83`](https://github.com/iojs/io.js/commit/c3c2fbdf83)] - **doc**: change effect to affect in errors.md (Ryan Seys) [#799](https://github.com/iojs/io.js/pull/799)
+* [[`b620129715`](https://github.com/iojs/io.js/commit/b620129715)] - **doc**: add sam-github as collaborator (Sam Roberts) [#791](https://github.com/iojs/io.js/pull/791)
+* [[`e80f803298`](https://github.com/iojs/io.js/commit/e80f803298)] - **doc**: remove Caine section from contributing guide (Michaël Zasso) [#804](https://github.com/iojs/io.js/pull/804)
+* [[`400d6e56f9`](https://github.com/iojs/io.js/commit/400d6e56f9)] - **doc**: fix libuv link (Yosuke Furukawa) [#803](https://github.com/iojs/io.js/pull/803)
+* [[`15d156e3ec`](https://github.com/iojs/io.js/commit/15d156e3ec)] - **doc**: fix wording in fs.appendFile (Rudolf Meijering) [#801](https://github.com/iojs/io.js/pull/801)
+* [[`dbf75924f1`](https://github.com/iojs/io.js/commit/dbf75924f1)] - **doc**: update error links (Chris Dickinson) [#793](https://github.com/iojs/io.js/pull/793)
+* [[`7061669dba`](https://github.com/iojs/io.js/commit/7061669dba)] - **events**: optimize adding and removing of listeners (Brian White) [#785](https://github.com/iojs/io.js/pull/785)
+* [[`630f636334`](https://github.com/iojs/io.js/commit/630f636334)] - **events**: move slow path to separate function too (Brian White) [#785](https://github.com/iojs/io.js/pull/785)
+* [[`ecef87177a`](https://github.com/iojs/io.js/commit/ecef87177a)] - **fs**: ensure nullCheck() callback is a function (cjihrig) [#887](https://github.com/iojs/io.js/pull/887)
+* [[`6a2b204bbc`](https://github.com/iojs/io.js/commit/6a2b204bbc)] - **module**: replace NativeModule.require (Herbert Vojčík) [joyent/node#9201](https://github.com/joyent/node/pull/9201)
+* [[`9b6b05556f`](https://github.com/iojs/io.js/commit/9b6b05556f)] - **net**: unref timer in parent sockets (Fedor Indutny) [#891](https://github.com/iojs/io.js/pull/891)
+* [[`cca8de6709`](https://github.com/iojs/io.js/commit/cca8de6709)] - **net**: remove use of arguments in Server constructor (cjihrig)
+* [[`0cff0521c3`](https://github.com/iojs/io.js/commit/0cff0521c3)] - **net**: throw on invalid socket timeouts (cjihrig) [joyent/node#8884](https://github.com/joyent/node/pull/8884)
+* [[`b5f25a963c`](https://github.com/iojs/io.js/commit/b5f25a963c)] - **src**: ensure that file descriptors 0-2 are valid (Ben Noordhuis) [#875](https://github.com/iojs/io.js/pull/875)
+* [[`a956791f69`](https://github.com/iojs/io.js/commit/a956791f69)] - **src**: fix typo in error message (Ben Noordhuis) [#875](https://github.com/iojs/io.js/pull/875)
+* [[`fb28c91074`](https://github.com/iojs/io.js/commit/fb28c91074)] - **src**: fix add-on builds, partially revert 8aed9d66 (Ben Noordhuis) [#868](https://github.com/iojs/io.js/pull/868)
+* [[`4bb3184d8d`](https://github.com/iojs/io.js/commit/4bb3184d8d)] - **src**: reduce AsyncWrap memory footprint (Ben Noordhuis) [#667](https://github.com/iojs/io.js/pull/667)
+* [[`7e779b4593`](https://github.com/iojs/io.js/commit/7e779b4593)] - **src**: remove obsoleted queue.h header (Ben Noordhuis) [#667](https://github.com/iojs/io.js/pull/667)
+* [[`38dc0cd8f4`](https://github.com/iojs/io.js/commit/38dc0cd8f4)] - **src**: switch from QUEUE to intrusive list (Ben Noordhuis) [#667](https://github.com/iojs/io.js/pull/667)
+* [[`58eb00c693`](https://github.com/iojs/io.js/commit/58eb00c693)] - **src**: add typesafe intrusive list (Ben Noordhuis) [#667](https://github.com/iojs/io.js/pull/667)
+* [[`8aed9d6610`](https://github.com/iojs/io.js/commit/8aed9d6610)] - **src**: cleanup `Isolate::GetCurrent()` (Vladimir Kurchatkin) [#807](https://github.com/iojs/io.js/pull/807)
+* [[`7c22372303`](https://github.com/iojs/io.js/commit/7c22372303)] - **src**: remove trailing whitespace (Vladimir Kurchatkin) [#798](https://github.com/iojs/io.js/pull/798)
+* [[`20f8e7f17a`](https://github.com/iojs/io.js/commit/20f8e7f17a)] - **test**: remove flaky test functionality (Rod Vagg) [#812](https://github.com/iojs/io.js/pull/812)
+* [[`30e340ad9d`](https://github.com/iojs/io.js/commit/30e340ad9d)] - **test**: fix parallel/test-tls-getcipher (Roman Reiss) [#853](https://github.com/iojs/io.js/pull/853)
+* [[`d53b636d94`](https://github.com/iojs/io.js/commit/d53b636d94)] - **test**: verify fields in spawn{Sync} errors (cjihrig) [#838](https://github.com/iojs/io.js/pull/838)
+* [[`3b1b4de903`](https://github.com/iojs/io.js/commit/3b1b4de903)] - **test**: Timeout#unref() does not return instance (Jan Schär) [joyent/node#9171](https://github.com/joyent/node/pull/9171)
+* [[`becb4e980e`](https://github.com/iojs/io.js/commit/becb4e980e)] - **test**: distribute crypto tests into separate files (Brendan Ashworth) [#827](https://github.com/iojs/io.js/pull/827)
+* [[`77f35861d0`](https://github.com/iojs/io.js/commit/77f35861d0)] - **(SEMVER-MINOR) tls**: more secure defaults (Roman Reiss) [#826](https://github.com/iojs/io.js/pull/826)
+* [[`faa687b4be`](https://github.com/iojs/io.js/commit/faa687b4be)] - **url**: reslove urls with . and .. (Amir Saboury) [#278](https://github.com/iojs/io.js/pull/278)
+
+## 2015-02-10, Version 1.2.0, @rvagg
+
+### Notable changes
+
+* **stream**:
+  - Simpler stream construction, see [readable-stream/issues#102](https://github.com/iojs/readable-stream/issues/102) for details. This extends the streams base objects to make their constructors accept default implementation methods, reducing the boilerplate required to implement custom streams. An updated version of readable-stream will eventually be released to match this change in core. (@sonewman)
+* **dns**:
+  - `lookup()` now supports an `'all'` boolean option, default to `false` but when turned on will cause the method to return an array of *all* resolved names for an address, see, [#744](https://github.com/iojs/io.js/pull/744) (@silverwind)
+* **assert**:
+  - Remove `prototype` property comparison in `deepEqual()`, considered a bugfix, see [#636](https://github.com/iojs/io.js/pull/636) (@vkurchatkin)
+  - Introduce a `deepStrictEqual()` method to mirror `deepEqual()` but performs strict equality checks on primitives, see [#639](https://github.com/iojs/io.js/pull/639) (@vkurchatkin)
+* **tracing**:
+  - Add [LTTng](http://lttng.org/) (Linux Trace Toolkit Next Generation) when compiled with the  `--with-lttng` option. Trace points match those available for DTrace and ETW. [#702](https://github.com/iojs/io.js/pull/702) (@thekemkid)
+* **docs**:
+  - Lots of doc updates, see individual commits
+  - New **Errors** page discussing JavaScript errors, V8 specifics, and io.js specific error details. (@chrisdickinson)
+* **npm** upgrade to 2.5.1, short changelog:
+  - [npm/0e8d473](https://github.com/npm/npm/commit/0e8d4736a1cbdda41ae8eba8a02c7ff7ce80c2ff) [#7281](https://github.com/npm/npm/issues/7281) `npm-registry-mock@1.0.0`: Clean up API, set `connection: close`, which makes tests pass on io.js 1.1.x.
+  ([@robertkowalski](https://github.com/robertkowalski))
+  - [npm/f9313a0](https://github.com/npm/npm/commit/f9313a066c9889a0ee898d8a35676e40b8101e7f)
+  [#7226](https://github.com/npm/npm/issues/7226) Ensure that all request
+  settings are copied onto the agent.
+  ([@othiym23](https://github.com/othiym23))
+   - [npm/fec4c96](https://github.com/npm/npm/commit/fec4c967ee235030bf31393e8605e9e2811f4a39)
+  Allow `--no-proxy` to override `HTTP_PROXY` setting in environment.
+  ([@othiym23](https://github.com/othiym23))
+  - [npm/9d61e96](https://github.com/npm/npm/commit/9d61e96fb1f48687a85c211e4e0cd44c7f95a38e)
+  `npm outdated --long` now includes a column showing the type of dependency.
+  ([@watilde](https://github.com/watilde))
+* **libuv** upgrade to 1.4.0, see [libuv ChangeLog](https://github.com/libuv/libuv/blob/v1.x/ChangeLog)
+* Add new collaborators:
+  - Aleksey Smolenchuk (@lxe)
+  - Shigeki Ohtsu (@shigeki)
+
+### Known issues
+
+* Surrogate pair in REPL can freeze terminal [#690](https://github.com/iojs/io.js/issues/690)
+* Not possible to build io.js as a static library [#686](https://github.com/iojs/io.js/issues/686)
+* `process.send()` is not synchronous as the docs suggest, a regression introduced in 1.0.2, see [#760](https://github.com/iojs/io.js/issues/760) and fix in [#774](https://github.com/iojs/io.js/issues/774) that should appear in the next patch release.
+
+### Commits
+
+* [7e2235a] - doc: add error documentation (Chris Dickinson)
+* [d832be4] - doc: update AUTHORS list (Rod Vagg)
+* [aea9b89] - doc: add shigeki as collaborator (Shigeki Ohtsu)
+* [e653080] - fs: improve `readFile` performance (Vladimir Kurchatkin)
+* [9681fca] - deps: update libuv to 1.4.0 (Saúl Ibarra Corretgé)
+* [5e825d1] - tracing: add lttng support for tracing on linux (Glen Keane)
+* [b677b84] - events: optimize various functions (Brian White)
+* [c86e383] - test: fix test failure with shared openssl (Shigeki Ohtsu)
+* [1151016] - doc: fix typo in crypto (Haoliang Gao)
+* [7c56868] - doc: change the order of crypto.publicDecrypt (Haoliang Gao)
+* [3f473ef] - assert: introduce `deepStrictEqual` (Vladimir Kurchatkin)
+* [828d19a] - doc: fix dns.lookup options example (Roman Reiss)
+* [90d2b35] - doc: update antiquated process.versions output (Ben Noordhuis)
+* [789bbb9] - doc: update node.js references in api docs (Ben Noordhuis)
+* [c22e5ac] - https: simpler argument check (Michaël Zasso)
+* [b9d3928] - util: simplify `isPrimitive` (Vladimir Kurchatkin)
+* [2c3121c] - benchmark: bump eventemitter number of iterations (Ben Noordhuis)
+* [633a990] - dns: allow dns.lookup() to return all addresses (Roman Reiss)
+* [1cd1d7a] - buffer: don't compare same buffers (Vladimir Kurchatkin)
+* [847b9d2] - benchmark: add more EventEmitter benchmarks (Brian White)
+* [96597bc] - doc: add lxe as collaborator (Aleksey Smolenchuk)
+* [7a301e2] - deps: make node-gyp work again on windows (Bert Belder)
+* [b188a34] - deps: make node-gyp fetch tarballs from iojs.org (Ben Noordhuis)
+* [af1bf49] - deps: upgrade npm to 2.5.1 (Forrest L Norvell)
+* [9dc9ec3] - lib: make debug client connect to 127.0.0.1 (Ben Noordhuis)
+* [e7573f9] - assert: don't compare object `prototype` property (Vladimir Kurchatkin)
+* [8d11799] - asyncwrap: fix nullptr parent check (Trevor Norris)
+* [62512bb] - test: accept EPROTONOSUPPORT ipv6 error (Ben Noordhuis)
+* [05f4dff] - asyncwrap: fix constructor condition for early ret (Trevor Norris)
+* [10277d2] - docs: include mention of new crypto methods (Calvin Metcalf)
+* [9a8f186] - child_process: add debug and error details (Zach Bruggeman)
+* [6f7a978] - crypto: clear error on return in TLS methods (Fedor Indutny)
+* [50daee7] - stream: simpler stream constructon (Sam Newman)
+* [e0730ee] - benchmark: allow compare via fine-grained filters (Brian White)
+* [96ffcb9] - src: reduce cpu profiler overhead (Ben Noordhuis)
+* [3e675e4] - benchmark: don't use template strings (Evan Lucas)
+* [8ac8b76] - doc: simplified pure consensus seeking (Mikeal Rogers)
+* [0a54b6a] - doc: update streams wg charter (Chris Dickinson)
+* [b8ead4a] - Adjusting for feedback in the PR. (Mikeal Rogers)
+* [3af7f30] - Initial documentation for working groups. (Mikeal Rogers)
+* [513724e] - doc: add GPG fingerprint for chrisdickinson (Chris Dickinson)
+* [4168198] - doc: add TC meeting 2015-01-28 minutes (Rod Vagg)
+
 ## 2015-02-03, Version 1.1.0, @chrisdickinson
 
 ### Notable changes
@@ -1031,14 +1182,14 @@ https://github.com/iojs/io.js/commit/8d045a30e95602b443eb259a5021d33feb4df079
 * uv: Update to v0.10.29
 * child_process: properly support optional args (cjihrig)
 * crypto: Disable autonegotiation for SSLv2/3 by default (Fedor Indutny,
-	Timothy J Fontaine, Alexis Campailla)
-	This is a behavior change, by default we will not allow the negotiation to
-	SSLv2 or SSLv3. If you want this behavior, run Node.js with either
-	`--enable-ssl2` or `--enable-ssl3` respectively.
-	This does not change the behavior for users specifically requesting
-	`SSLv2_method` or `SSLv3_method`. While this behavior is not advised, it is
-	assumed you know what you're doing since you're specifically asking to use
-	these methods.
+  Timothy J Fontaine, Alexis Campailla)
+  This is a behavior change, by default we will not allow the negotiation to
+  SSLv2 or SSLv3. If you want this behavior, run Node.js with either
+  `--enable-ssl2` or `--enable-ssl3` respectively.
+  This does not change the behavior for users specifically requesting
+  `SSLv2_method` or `SSLv3_method`. While this behavior is not advised, it is
+  assumed you know what you're doing since you're specifically asking to use
+  these methods.
 
 ## 2014.09.16, Version 0.10.32 (Stable)
 
@@ -2148,13 +2299,13 @@ https://github.com/iojs/io.js/commit/8b8a7a7f9b41e74e1e810d0330738ad06fc302ec
 https://github.com/iojs/io.js/commit/a72120190a8ffdbcd3d6ad2a2e6ceecd2087111e
 
 * npm: Upgrade to 1.1.30
-	- Improved 'npm init'
-	- Fix the 'cb never called' error from 'oudated' and 'update'
-	- Add --save-bundle|-B config
-	- Fix isaacs/npm[#2465](https://github.com/joyent/node/issues/2465): Make npm script and windows shims cygwin-aware
-	- Fix isaacs/npm[#2452](https://github.com/joyent/node/issues/2452) Use --save(-dev|-optional) in npm rm
-	- `logstream` option to replace removed `logfd` (Rod Vagg)
-	- Read default descriptions from README.md files
+  - Improved 'npm init'
+  - Fix the 'cb never called' error from 'oudated' and 'update'
+  - Add --save-bundle|-B config
+  - Fix isaacs/npm[#2465](https://github.com/joyent/node/issues/2465): Make npm script and windows shims cygwin-aware
+  - Fix isaacs/npm[#2452](https://github.com/joyent/node/issues/2452) Use --save(-dev|-optional) in npm rm
+  - `logstream` option to replace removed `logfd` (Rod Vagg)
+  - Read default descriptions from README.md files
 
 * Shims to support deprecated ev_* and eio_* methods (Ben Noordhuis)
 * [#3118](https://github.com/joyent/node/issues/3118) net.Socket: Delay pause/resume until after connect (isaacs)
@@ -2213,9 +2364,9 @@ https://github.com/iojs/io.js/commit/12a32a48a30182621b3f8e9b9695d1946b53c131
 * child_process: new stdio API for .spawn() method (Fedor Indutny)
 * child_process: spawn().ref() and spawn().unref() (Fedor Indutny)
 * Upgrade npm to 1.1.25
-	- Enable npm link on windows
-	- Properly remove sh-shim on Windows
-	- Abstract out registry client and logger
+  - Enable npm link on windows
+  - Properly remove sh-shim on Windows
+  - Abstract out registry client and logger
 
 ## 2012.05.28, Version 0.7.9 (unstable)
 
@@ -2781,7 +2932,7 @@ https://github.com/iojs/io.js/commit/865b077819a9271a29f982faaef99dc635b57fbc
 https://github.com/iojs/io.js/commit/220e61c1f65bf4db09699fcf6399c0809c0bc446
 
 * Remove cmake build system, support for Cygwin, legacy code base,
-	process.ENV, process.ARGV, process.memoryUsage().vsize, os.openOSHandle
+  process.ENV, process.ARGV, process.memoryUsage().vsize, os.openOSHandle
 
 * Documentation improvments (Igor Zinkovsky, Bert Belder, Ilya Dmitrichenko,
 koichik, Maciej Małecki, Guglielmo Ferri, isaacs)
@@ -3000,7 +3151,7 @@ https://github.com/iojs/io.js/commit/4585330afef44ddfb6a4054bd9b0f190b352628b
 * Add support for TLS SNI (Fedor Indutny)
 * New http agent implementation. Off by default the command line flag
   --use-http2 will enable it. "make test-http2" will run the tests
-	for the new implementation. (Mikeal Rogers)
+  for the new implementation. (Mikeal Rogers)
 
 * Revert AMD compatibility. (isaacs)
 * Windows: improvements, child_process support.
@@ -3160,7 +3311,7 @@ https://github.com/iojs/io.js/commit/7dd22c26e4365698dc3efddf138c4d399cb912c8
 * [#983](https://github.com/joyent/node/issues/983) Better JSON.parse error detection in REPL (isaacs)
 * [#836](https://github.com/joyent/node/issues/836) Agent socket errors bubble up to req only if req exists
 * [#1041](https://github.com/joyent/node/issues/1041) Fix event listener leak check timing (koichik)
-*	[#1038](https://github.com/joyent/node/issues/1038) Fix dns.resolve() with 'PTR' throws Error: Unknown type "PTR"
+* [#1038](https://github.com/joyent/node/issues/1038) Fix dns.resolve() with 'PTR' throws Error: Unknown type "PTR"
   (koichik)
 
 * [#1073](https://github.com/joyent/node/issues/1073) Share SSL context between server connections (Fedor Indutny)
@@ -3174,7 +3325,7 @@ https://github.com/iojs/io.js/commit/7dd22c26e4365698dc3efddf138c4d399cb912c8
 
 * Doc improvements
 * cleartextstream.destroy() should close(2) the socket. Previously was being
-	mapped to a shutdown(2) syscall.
+  mapped to a shutdown(2) syscall.
 
 * No longer compile out asserts and debug statements in normal build.
 * Debugger improvements.
@@ -3200,16 +3351,16 @@ https://github.com/iojs/io.js/commit/58002d56bc79410c5ff397fc0e1ffec0665db38a
 
 * Don't error on ENOTCONN from shutdown() [#670](https://github.com/joyent/node/issues/670)
 * Auto completion of built-in debugger suggests prefix match rather than
-	partial match. (koichik)
+  partial match. (koichik)
 
 * circular reference in vm modules. [#822](https://github.com/joyent/node/issues/822) (Jakub Lekstan)
 * http response.readable should be false after 'end' [#867](https://github.com/joyent/node/issues/867) (Abe Fettig)
 * Implement os.cpus() and os.uptime() on Solaris (Scott McWhirter)
 * fs.ReadStream: Allow omission of end option for range reads [#801](https://github.com/joyent/node/issues/801)
-	(Felix Geisendörfer)
+  (Felix Geisendörfer)
 
 * Buffer.write() with UCS-2 should not be write partial char
-	[#916](https://github.com/joyent/node/issues/916) (koichik)
+  [#916](https://github.com/joyent/node/issues/916) (koichik)
 
 * Pass secureProtocol through on tls.Server creation (Theo Schlossnagle)
 * TLS use RC4-SHA by default
@@ -3247,7 +3398,7 @@ https://github.com/iojs/io.js/commit/25122b986a90ba0982697b7abcb0158c302a1019
 https://github.com/iojs/io.js/commit/c095ce1a1b41ca015758a713283bf1f0bd41e4c4
 
 * Don't decrease server connection counter again if destroy() is called more
-	than once GH-431 (Andreas Reich, Anders Conbere)
+  than once GH-431 (Andreas Reich, Anders Conbere)
 
 * Documentation improvements (koichik)
 * Fix bug with setMaxListeners GH-682
@@ -3559,7 +3710,7 @@ https://github.com/iojs/io.js/commit/b14dd49222687c12f3e8eac597cff4f2674f84e8
 * Set cwd for child processes (Bert Belder)
 * Tab completion for readline (Trent Mick)
 * process.title getter/setter for OSX, Linux, Cygwin.
-	(Rasmus Andersson, Bert Belder)
+  (Rasmus Andersson, Bert Belder)
 
 * Upgrade V8 to 2.3.6
 
