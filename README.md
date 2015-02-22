@@ -24,6 +24,7 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 - Enver Arslan ([@enverarslan](https://github.com/enverarslan))
 - Behcet ([@behcet-li](https://github.com/behcet-li)) 
 - Mustafa Özgüner ([@mustafaozguner](https://github.com/mustafaozguner))
+- Barış Güler ([@hwclass](https://github.com/hwclass))
 
 
 [Orjinal io.js Medium.com Yazıları](https://medium.com/@iojs)
