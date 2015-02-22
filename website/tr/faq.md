@@ -21,16 +21,14 @@ gerektirecek kadar önemliydi.
 
 Herkes yardımda bulunabilir. io.js adheres to a [code of conduct](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), and contributions, releases, and contributorship are under an [open governance](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) model.
 
-To get started, there are open [ discussions on GitHub](https://github.com/iojs/io.js/issues), and we'd love to hear your feedback.
-Becoming involved in discussions is a good way to get a feel of where you can help out further. If there is
-something there you feel you can tackle, please [make a pull request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
+Başlangıç için, [GitHub üzerinde tartışmalar](https://github.com/iojs/io.js/issues) mevcut, geri bildiriminizi duymak isteriz. Tartışmalara dahil olmak nasıl daha fazla yardımcı olabileceğiniz hakkında fikir almak için iyi bir yoldur. Eğer yapabileceğiniz bir şey varsa lütfen [pull request gönderin](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
 
-In addition, using [Nodebug.me](http://nodebug.me/) is a good way to help Triage the issues in the backlog.
+Ek olarak, [Nodebug.me](http://nodebug.me/) kullanmak birikmiş işlerin önceliğe göre sıralanmasına yardım etmek için iyi bir yoldur.
 
 ## Tartışmalar Nerede Gerçekleşiyor?
 
-There is an #io.js channel on Freenode IRC. We keep logs of the channel [here](http://logs.libuv.org/io.js/latest).
+Freenode IRC üzerinde bir \#io.js kanalı mevcut. Kanalın kayıtlarını [burada](http://logs.libuv.org/io.js/latest) tutuyoruz.
 
 ## Açık Kaynak Yönetim Biçimi Nedir?
 
-Open source governance advocates the application of the philosophies of the open source and open content movements in order to enable any interested party to add to the creation of the end product, as with a wiki document. Legislation is democratically opened to the general citizenry, employing their collective wisdom to benefit the decision-making process and improve democracy. [[source]](https://en.wikipedia.org/wiki/Open-source_governance)
+Açık kaynak yönetim biçimi; nihai ürün ortaya çıkarılırken ilgili şahısların katılımını sağlamak amacıyla açık kaynak ve açık içerik hareketlerinin felsefelerinin uygulanmasını savunmaktadır, bir wiki belgesi gibi. Mevzuat demokratik olarak herkese açıktır, karar verme süreci ve demokrasiyi geliştirmek için kolektif aklı kullanır. [[kaynak][2]](https://en.wikipedia.org/wiki/Open-source_governance)
