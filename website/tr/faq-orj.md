@@ -1,8 +1,8 @@
-# SSS
+# FAQ
 
-## İo.js nedir?
+## What is io.js?
 
-[io.js](https://github.com/iojs/io.js) [Chrome's V8 runtime](http://code.google.com/p/v8/) JavaScript platformu üzerine inşa edilmiştir. Proje [Joyent's Node.js™](https://nodejs.org/) klonu üzerinden geliştirilmeye başlandı, [Node.js™](https://nodejs.org/) ve [npm](https://www.npmjs.org/) ekosistemiyle uyumlu çalışmakta.
+[io.js](https://github.com/iojs/io.js) is a JavaScript platform built on [Chrome's V8 runtime](http://code.google.com/p/v8/). This project began as a fork of [Joyent's Node.js™](https://nodejs.org/) and is compatible with the [npm](https://www.npmjs.org/) ecosystem.
 
 Why? io.js aims to provide faster and predictable release cycles. It currently merges in the latest language, API and performance improvements to V8 while also updating libuv and other base libraries.
 
