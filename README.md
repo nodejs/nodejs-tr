@@ -31,12 +31,10 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 
 Lütfen bu açık platformun, ülkemizde yayılması için Türkiye takımına destek olalım.
 
+
 #### Değişiklikleri takip etmek için
-
 ```sh
-git remote add upstream git@github.com:iojs/iojs-tr.git
-```
-
-```sh
-$ git pull upstream
+$ git remote add upstream git@github.com:iojs/iojs-tr.git
+$ git fetch upstream
+$ git merge upstream/master
 ```
