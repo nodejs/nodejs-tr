@@ -107,6 +107,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Stream:
  * Set: Ayar
  * Symbols: Semboller
+ * Specification:
 
 
 #T
