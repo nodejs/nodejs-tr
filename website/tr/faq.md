@@ -15,11 +15,11 @@ Bu proje, io.js platformunun geliştirilmesine kurumsal yönetim şekline karş�
 io.js [Semver](http://semver.org/) versiyonlama şekline geçiş yaptı ve Node.js™ 0.10 ile io.js 1.0.0 arasındaki değişiklikler bir ana sürüm yükseltilmesini
 gerektirecek kadar önemliydi.
 
-Our [CHANGELOG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) for v1.x provides a [summary of changes from Node.js v0.10.35 to io.js v1.0.x](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
+ v1.x için [Değişiklikler](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md)  [Node.js v0.10.35'den io.js v1.0.x için yapılan değişikliklerin özeti](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
 
 ## Nasıl Katkıda Bulunabilirim?
 
-Everyone can help. io.js adheres to a [code of conduct](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), and contributions, releases, and contributorship are under an [open governance](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) model.
+Herkes yardımda bulunabilir. io.js adheres to a [code of conduct](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), and contributions, releases, and contributorship are under an [open governance](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) model.
 
 To get started, there are open [ discussions on GitHub](https://github.com/iojs/io.js/issues), and we'd love to hear your feedback.
 Becoming involved in discussions is a good way to get a feel of where you can help out further. If there is
