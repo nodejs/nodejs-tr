@@ -41,12 +41,12 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #C
  * Const: Sabit
  * Classes: Sınıf
- * Container:
+ * Container: Kapsayıcı
  * Committee: Komite
 
 
 #D
- * Destructor:
+ * Destructor: İmha eden
  * Docker: 
 
 
@@ -57,7 +57,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Framework: Framework
 
 #G
- * Generators:
+ * Generator:
  * Governance: Yönetim Biçimi
  * Governance Model: Yönetim Modeli
 
@@ -65,7 +65,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #İ
- * İterators:
+ * İterator: Yineleyici
 
 
 #J
@@ -98,13 +98,13 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #R
- * Reject:
- * Resolve:
+ * Reject: Reddetmek
+ * Resolve: Çözümlemek, halletmek
  * Release: Yayın
 
 #S
  * Strict Mode: Katı Mod
- * Stream:
+ * Stream: Akış
  * Set: Ayar
  * Symbols: Semboller
  * Specification:
