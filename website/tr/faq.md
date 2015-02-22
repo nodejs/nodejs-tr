@@ -19,7 +19,7 @@ gerektirecek kadar önemliydi.
 
 ## Nasıl Katkıda Bulunabilirim?
 
-Herkes yardımda bulunabilir. io.js adheres to a [code of conduct](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct), and contributions, releases, and contributorship are under an [open governance](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) model.
+Herkes yardımda bulunabilir. io.js bir [yönetim kılavuzuna](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct) bağlı kalır, katkılar, yayınlar ve katkıda bulunma rolleri bir [açık yönetim](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme) modeli altındadır.
 
 Başlangıç için, [GitHub üzerinde tartışmalar](https://github.com/iojs/io.js/issues) mevcut, geri bildiriminizi duymak isteriz. Tartışmalara dahil olmak nasıl daha fazla yardımcı olabileceğiniz hakkında fikir almak için iyi bir yoldur. Eğer yapabileceğiniz bir şey varsa lütfen [pull request gönderin](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
 
