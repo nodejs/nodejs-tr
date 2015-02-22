@@ -31,4 +31,4 @@ Freenode IRC üzerinde bir \#io.js kanalı mevcut. Kanalın kayıtlarını [bura
 
 ## Açık Kaynak Yönetim Biçimi Nedir?
 
-Açık kaynak yönetim biçimi; nihai ürün ortaya çıkarılırken ilgili şahısların katılımını sağlamak amacıyla açık kaynak ve açık içerik hareketlerinin felsefelerinin uygulanmasını savunmaktadır, bir wiki belgesi gibi. Mevzuat demokratik olarak herkese açıktır, karar verme süreci ve demokrasiyi geliştirmek için kolektif aklı kullanır. [[kaynak][2]](https://en.wikipedia.org/wiki/Open-source_governance)
+Açık kaynak yönetim biçimi; nihai ürün ortaya çıkarılırken ilgili şahısların katılımını sağlamak amacıyla açık kaynak ve açık içerik hareketlerinin felsefelerinin uygulanmasını savunmaktadır, bir wiki belgesi gibi. Mevzuat demokratik olarak herkese açıktır, karar verme süreci ve demokrasiyi geliştirmek için kolektif aklı kullanır. [[kaynak]](https://en.wikipedia.org/wiki/Open-source_governance)
