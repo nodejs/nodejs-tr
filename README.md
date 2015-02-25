@@ -1,4 +1,4 @@
-# io.js Türkçe
+# io.js Türkçe ![Çeviri Tamamlanma](https://img.shields.io/badge/Tamanlanma-%2525-green.svg?style=flat-square)
 
 io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 
