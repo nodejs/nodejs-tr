@@ -76,6 +76,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #L
  * Let:
+ * Localization: Yerelleştirme
 
 
 #M
