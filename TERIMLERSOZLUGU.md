@@ -48,6 +48,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #D
  * Destructor: İmha eden
  * Docker: 
+ * Debugging: Hata Ayıklama
 
 
 #E
