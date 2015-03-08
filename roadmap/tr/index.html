@@ -43,9 +43,8 @@
 
 	<section class="slide"><div>
 		<h2>Topluluk tarafından, topluluk için</h2>
-		<p><strong>io.js</strong> is a drop-in replacement for node.js and is compatible with nearly all the modules in <strong>npm</strong>.
-		</p>
-		<p><strong>io.js</strong> is a community driven open source project. It was started by the primary contributors to node.js but in the first few months attracted more active developers than the node.js project has had in its entire history.</p>
+		<p><strong>io.js</strong> node.js ile yer değiştirmek yerine, tüm npm modülleri ile uyumlu çalışmayı amaçlıyor.</p>
+		<p><strong>io.js</strong> topluluk tarafından açık kaynak şekilde yönetiliyor.Nodejs başlangıcından beri bulunan katkılardan daha çok ilgiliyi çok az bir sürede geliştiriciler tarafından çekmiştir</p>
 
 	</div></section>
 
@@ -59,58 +58,58 @@
 			<li>Devam Eden Standartları Benimsemek</li>
 			<li>Yerelleştirme</li>
 		</ol>
-		<p class="note">Concerns list compiled from the <a href="https://github.com/iojs/roadmap">roadmap</a> project. Contributors welcome!</p>
+		<p class="note">Fikrini <a href="https://github.com/iojs/roadmap">Yol Haritası</a> projesiden belirtebilirsin. Aramıza hoşgeldin!</p>
 	</div></section>
 
 	<section class="slide"><div style="padding-top:50px;">
 		<h2>İstikrar Politikası</h2>
 		<blockquote>
-			<p>We have the largest package ecosystem of any language, we can't break it.</p>
+			<p>Herhangi bir dilde olduğu gibi büyük bir paket ekosistemine sahibiz, buna ara veremeyiz.</p>
 		</blockquote>
 		<ul>
 			<li>JS API kaldırmıyoruz.</li>
 			<li><a href="http://semver.org">Semantik Versiyonlama</a>
 				<ul>
 					<li>Herhangi bir api eklemesi <em>minor</em> versiyon artışı anlamına geliyor.</li>
-					<li>Changes in V8's C++ API handled by <a href="https://github.com/rvagg/nan"><code>nan</code></a> mean a <em>minor</em> version increment and a <em>major</em> increment if they cannot.</li>
+					<li>V8 C++ API'si ile yapılan değişiklikler <code>nan</code> tarafından <em>minor</em>  yada <em>major</em> şeklinde sürüm artışı sağlıyoruz</li>
 				</ul>
 			</li>
 		</ul>
-			<p class="note">From the <a href="https://github.com/iojs/io.js/blob/v1.x/ROADMAP.md">Stability Policy</a> section of the Roadmap. Contributors welcome!</p>
+			<p class="note"></p>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Kanallar</h2>
 		<table>
 		<tr>
-			<th scope="row">Release</th>
-			<td>Any versioned build.<br> <strong>Must be stable and ready for production</strong>.</td>
+			<th scope="row">Sürüm</th>
+			<td>Herhangi oluşturulmuş bir sürüm.<br> <strong>Kararlı sürüm production için kullanılabilir</strong>.</td>
 		</tr>
 		<tr>
 			<th scope="row">Canary</th>
-			<td>Nightly builds with Canary V8 & other new features.</td>
+			<td>Gecelik derlemeler ve Canary V8 & diğer yeni özellikler.</td>
 		</tr>
 		<tr>
 			<th scope="row">NG</th>
-			<td>Next Generation ES6/7 centric API.</td>
+			<td>Yeni nesil ES6/7 merkezli API.</td>
 		</tr>
 		</table>
 		<br>
 		<br>
-		<p class="note">From the <a href="https://github.com/iojs/io.js/blob/v1.x/ROADMAP.md">Roadmap</a>. Contributors welcome!</p>
+		<p class="note">Fikrini <a href="https://github.com/iojs/roadmap">Yol Haritası</a> projesiden belirtebilirsin. Aramıza hoşgeldin!</p>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>YN (Yeni Nesil)</h2>
 
-		<ul>
-			<li>A new platform for modern JavaScript Applications.</li>
-			<li>Will remain backward compatible indefinitely.</li>
-			<li>New APIs can be ES6/7 centric without breaking old modules and API.</li>
-			<li>Separates work on future API from improvements to the current platform.</li>
+		<ul> 
+			<li>Modern javascript uygulamaları için yeni bir platform.</li>
+			<li>Geriye dönük uyumsuzlukları bırakmak.</li>
+			<li>Eski modülleri <code>API</code> bozmadan ES6/7 merkezli <code>API</code> uyarlamak</li>
+			<li><code>API</code> geleceği için çalışmları tek bir platform üzerinde toplamak</li>
 		</ul>
 		<br>
-		<p class="note">NG discussions are ongoing in the <a href="https://github.com/iojs/ng">NG repo</a>.</p>
+		<p class="note">YN konusunda fikir alışverişi için <a href="https://github.com/iojs/ng">YN Kaynağı</a>.</p>
 	</div></section>
 
 	<section class="slide"><div>
