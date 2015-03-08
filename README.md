@@ -8,7 +8,7 @@ io.js için Türkçe çeviri ekibi. [io.js](http://iojs.org)
 
 [iojs_tr Medium Yazıları](https://medium.com/@iojs_tr)
 
-[#io.js-tr](http://webchat.freenode.net/?channels=io.js-tr) channel
+[![Aramıza Katılın](https://iojstr-slack.herokuapp.com/badge.svg)](https://iojstr-slack.herokuapp.com)
 ## Medium Yazı Toplulukları
 
 [iojs_tr Haftalık Bülten Yazıları ](https://medium.com/iojstr-haftalik-bulten)
