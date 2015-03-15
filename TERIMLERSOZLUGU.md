@@ -33,6 +33,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #A
  * Arrow Functions:
+ * Assertion: Kontrol fonksiyonu
 
 #B
  * Build: Yapı
@@ -43,6 +44,8 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Classes: Sınıf
  * Container: Kapsayıcı
  * Committee: Komite
+ * Commit: Commit
+ * Crash: Çökme
 
 
 #D
