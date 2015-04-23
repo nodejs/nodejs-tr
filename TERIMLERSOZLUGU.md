@@ -42,6 +42,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #C
  * Const: Sabit
  * Classes: Sınıf
+ * Changelog: 
  * Container: Kapsayıcı
  * Committee: Komite
  * Commit: Commit
