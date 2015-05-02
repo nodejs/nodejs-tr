@@ -115,53 +115,53 @@
 	<section class="slide"><div>
 		<h2>Hata ayıklama ve İzleme</h2>
 		<blockquote>
-			<p>Core should enable a massive and diverse ecosystem of debugging and tracing tools rather than endorse high level abstractions like <code>domains</code>.</p>
+			<p>Çekirdek hata ayıklama ve izleme araçları büyük ve farklı ekosistemler de oldukça önemli bir önceliğe sahiptir örneğin <code>domainler</code> gibi.</p>
 		</blockquote>
 		<ul>
-			<li>Integrate with <code>trace_event</code> (New trace API for V8 & Chrome).</li>
-			<li>Document and evangelize a debugging ecosystem.</li>
-			<li>Unify system tracing endpoint (DTrace, LTTng, etc)</li>
+			<li><code>trace_event</code> ile entegrasyon (V8 ve Chrome için yeni izleme API desteği).</li>
+			<li>Hata ayıklama ve dökümantasyonu yaymak.</li>
+			<li>Son nokta ile izleme sistemini birleştirme. (DTrace, LTTng, vb.)</li>
 		</ul>
-		<p class="note">Work being lead by the <a href="https://github.com/iojs/tracing-wg">Tracing Working Group</a>. Contributors welcome!</p>
+		<p class="note"> <a href="https://github.com/iojs/tracing-wg">İzleme Çalışma Grubu</a> liderliğinde çalışın. Merhaba destekçiler!</p>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Akış</h2>
 		<ul>
-			<li><strong>Streams Working Group</strong> has taken over <code>readable-stream</code>, which is now the official io.js <code>stream</code> module.</li>
-			<li>Fix all existing compatibility issues.</li>
-      <li>Simplify stream creation to avoid user error.</li>
-			<li>Explore <a href="https://github.com/whatwg/streams">WHATWG Streams</a> interface and identify compatibility issues.</li>
-			<li>Improve stream performance.</li>
+			<li><strong>Akış Çalışma Grubu</strong> <code>readable-stream</code> modülünü, resmi io.js ile <code>stream</code> modülü ile değiştirdi.</li>
+			<li>Tüm uyumluluk sorunları giderildi.</li>
+      <li>Akış sırasında kullanıcı hatası oluşturma basitleştirilecek.</li>
+			<li>Gözatın <a href="https://github.com/whatwg/streams">WHATWG Akışlar</a> arayüz ve uyumluluk sorunlarını belirlemek.</li>
+			<li>Akış performansı arttırılacak.</li>
 		</ul>
-		<p class="note">Work being lead by the <a href="https://github.com/iojs/readable-stream">Streams Working Group</a>. Contributors welcome!</p>
+		<p class="note"><a href="https://github.com/iojs/readable-stream">Akış Çalışma Grubu</a> liderliğinde çalışın. Destekçiler merhaba!</p>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Uzun Süreli Destek</h2>
 
 		<ul>
-			<li>New release lines will ship with stable and supported dependencies.</li>
-			<li>Patch releases of older versions will be published for as long as people are actively contributing.</li>
-			<li>io.js will take responsibility for old versions of dependencies like V8 that appear in prior releases when their maintainers stop supporting them.</li>
+			<li>Yeni sürüm çizgisi stabil ve desteklenen bağımlılıkara göre belirlenecektir.</li>
+			<li>Eski derleme yamaları üzerinde çalışan kullanıcıları uzun süre yayınlayacağız.</li>
+			<li>io.js eski sürümlerde ki V8 bağımlılıkları koruyacak sorumluluğu gösterecektir. Bu sorumluluk V8 geliştiricileri önceki sürümlere desteklerini sonlandırdıklarına kadar devam edecektir.</li>
 		</ul>
 		<br>
-		<p class="note">Summary from <a href="https://github.com/iojs/io.js/blob/v1.x/ROADMAP.md">Stability Policy</a>. Contributors welcome!</p>
+		<p class="note"><a href="https://github.com/iojs/io.js/blob/v1.x/ROADMAP.md">Kararlılık Politikası</a> özeti. Destekçiler merhaba!</p>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Yerelleştirme</h2>
 
 		<ul>
-			<li>Reduce impact of including <code>icu</code> (binary and memory footprint).</li>
-			<li>Foster a vibrant localization community.</li>
+			<li><code>icu</code> dahilinde ki etkisini azaltmak (ikili ve hafıza izi).</li>
+			<li>Canlı yerelleştirme toplulukları teşvik edilecek.</li>
 				<ul>
-					<li>Autonomous language communities (30+ registered so far)</li>
-					<li>Evangelism efforts to grow membership (160+ members so far)</li>
-					<li>Improve tooling for translating website, API docs, installers and slide decks.</li>
+					<li>Otonom dil toplulukları (Şimdiden otuzdan fazla)</li>
+					<li>Yaygınlaştırma çalışmaları ile üyelikleri büyütmek (Şimdiden yüz altmıştan fazla)</li>
+					<li>Website yerelleştirme araçları, API dökümanları, yükleyicileri ve sunum katları geliştirilecek.</li>
 				</ul>
 		</ul>
-		<p class="note">You can get involved by <a href="https://github.com/iojs/website/issues/125">joining the community for your language</a> :)</p>
+		<p class="note">Sizde dahil olun, <a href="https://github.com/iojs/website/issues/125"> kendi dilinizin topluluğuna katılın</a> :)</p>
 	</div></section>
 
 	<section class="slide"><div>
@@ -170,7 +170,7 @@
 		<table>
 		<tr>
 			<th></th>
-			<th scope="column">Core</th>
+			<th scope="column">Çekirdek</th>
 			<th scope="column">Ekosistem</th>
 			<th scope="column">Topluluk</th>
 		</tr>
@@ -182,21 +182,21 @@
 		</tr>
 		<tr>
 			<th>Evangelism</th>
-			<td><a href="https://github.com/iojs/roadmap">Roadmap</a></td>
+			<td><a href="https://github.com/iojs/roadmap">Yol Haritası</a></td>
 			<td><a href="http://nodeschool.io/">NodeSchool</a></td>
-			<td><a href="https://github.com/iojs/evangelism">iojs Evangelism WG</a></td>
+			<td><a href="https://github.com/iojs/evangelism">iojs Yaygınlaştırma Çalışma Grubu</a></td>
 		</tr>
 		<tr>
 			<th>i18n</th>
 			<td>ICU</td>
-			<td><a href="https://github.com/iojs/io.js/issues/695">doc tooling</a></td>
-			<td><a href="https://github.com/iojs/website/issues/125">join a language<br>community</a></td>
+			<td><a href="https://github.com/iojs/io.js/issues/695">dök. araçları</a></td>
+			<td><a href="https://github.com/iojs/website/issues/125">bir dil <br>topluluğuna</a> katılın.</td>
 		</tr>
 		</table>
 
 	</div></section>
 
-	<p class="badge"><a href="https://github.com/iojs/roadmap">Fork me on Github</a></p>
+	<p class="badge"><a href="https://github.com/iojs/roadmap">Github üstünde Fork edin.</a></p>
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
