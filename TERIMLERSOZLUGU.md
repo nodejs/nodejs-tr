@@ -32,19 +32,19 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 [z](#z) -
 
 #A
- * Arrow Functions:
- * Assertion: Kontrol fonksiyonu
+ * Arrow Functions: Ok Fonksiyonları
+ * Assertion: Kontrol Fonksiyonu
 
 #B
- * Build: Yapı
+ * Build: İnşa Etmek
 
 
 #C
- * Const: Sabit
+ * Const: Sabit Değişken
  * Classes: Sınıf
- * Changelog: 
+ * Changelog: Değişlikler Listesi
  * Container: Kapsayıcı
- * Committee: Komite
+ * Committe: Komite
  * Commit: Commit
  * Crash: Çökme
 
@@ -59,10 +59,10 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #F
- * Framework: Framework
+ * Framework: Yapı
 
 #G
- * Generator:
+ * Generator: Üreteç
  * Governance: Yönetim Biçimi
  * Governance Model: Yönetim Modeli
 
@@ -80,13 +80,13 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #L
- * Let:
+ * Let: Block Kapsamlı Değişken 
  * Localization: Yerelleştirme
 
 
 #M
  * Map: Haritalama
- * WeakMap
+ * WeakMap:
 
 
 #N
@@ -114,6 +114,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Set: Ayar
  * Symbols: Semboller
  * Specification:
+ * Scope: Kapsam
 
 
 #T
@@ -129,7 +130,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #W
  * WeakMap:
  * WeakSet:
- * Website: Website
+ * Website: Web Sayfası
 
 #X
 
