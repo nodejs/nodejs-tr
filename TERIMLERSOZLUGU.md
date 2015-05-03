@@ -106,7 +106,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 #R
  * Reject: Reddetmek
  * Resolve: Çözümlemek, halletmek
- * Release: Yayın
+ * Release: Sürüm
 
 #S
  * Strict Mode: Katı Mod
