@@ -87,9 +87,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 #M
  * Map: Haritalama
- * WeakMap:
-
-
+ 
 #N
 
 
