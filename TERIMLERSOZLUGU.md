@@ -47,6 +47,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Committe: Komite
  * Commit: Commit
  * Crash: Çökme
+ * Cluster: 
 
 
 #D
