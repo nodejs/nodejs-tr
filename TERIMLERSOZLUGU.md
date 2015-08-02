@@ -43,7 +43,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Const: Sabit Değişken
  * Classes: Sınıf
  * Changelog: Değişlikler Listesi
- * Collaborator: 
+ * Collaborator: İşbirlikçi
  * Container: Kapsayıcı
  * Committe: Komite
  * Commit: Commit
@@ -97,8 +97,8 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 
 
 #P
- * Promises:
- * Proxies:
+ * Promises: Söz
+ * Proxy: vekil
 
 #Q
 
