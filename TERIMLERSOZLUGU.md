@@ -115,6 +115,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Symbols: Semboller
  * Specification:
  * Scope: Kapsam
+ * Spread: Sonsuzluk
 
 
 #T
