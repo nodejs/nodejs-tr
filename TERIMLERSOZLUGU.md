@@ -48,6 +48,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Commit: Commit
  * Crash: Çökme
  * Cluster: 
+ * Constructor: 
 
 
 #D
