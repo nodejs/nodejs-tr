@@ -4,9 +4,9 @@ node.js için Türkçe çeviri ekibi. [node.js](https://nodejs.org/)
 
 ## node.js Türkiye için sosyal medya hesapları;
 
-[iojs_tr Twitter Hesabı](https://twitter.com/nodejs_tr)
+[Node.Js Türkçe Twitter Hesabı](https://twitter.com/nodejs_tr)
 
-[iojs_tr Medium Yazıları](https://medium.com/@iojs_tr)
+[Node.Js Türkçe Medium Yazıları](https://medium.com/@iojs_tr)
 
 [Slack Grubu](https://iojstr.slack.com/)
 ## Medium Yazı Toplulukları
