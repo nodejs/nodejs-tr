@@ -11,9 +11,9 @@ node.js için Türkçe çeviri ekibi. [node.js](https://nodejs.org/)
 [Slack Grubu](https://iojstr.slack.com/)
 ## Medium Yazı Toplulukları
 
-[nodejs_tr Haftalık Bülten Yazıları ](https://medium.com/nodejs_tr-haftalik-bulten)
+[nodejs_tr Haftalık Bülten Yazıları ](https://medium.com/iojs-haftalik-bulten)
 
-[nodejs Hakkında Türkçe Yazılar ](https://medium.com/nodejs_tr-hakkinda-yazilar)
+[nodejs Hakkında Türkçe Yazılar ](https://medium.com/iojs-hakkinda-yazilar)
 
 
 ## node.js Türkiye Ekibi
