@@ -1,22 +1,20 @@
-# node.js Türkçe ![Çeviri Tamamlanma](https://img.shields.io/badge/Tamanlanma-%2525-green.svg?style=flat-square)
+# Nodejs Türkiye ![Çeviri Tamamlanma](https://img.shields.io/badge/Tamanlanma-%2525-green.svg?style=flat-square)
 
-node.js için Türkçe çeviri ekibi. [node.js](https://nodejs.org/)
+[Nodejs](https://nodejs.org/) Türkiye çeviri ekibi.
 
-## node.js Türkiye için sosyal medya hesapları;
+## Nodejs Türkiye için sosyal medya hesapları
 
-[Node.Js Türkçe Twitter Hesabı](https://twitter.com/nodejs_tr)
+[Nodejs Türkçe Twitter Hesabı](https://twitter.com/nodejs_tr)
 
-[Node.Js Türkçe Medium Yazıları](https://medium.com/@iojs_tr)
+[Nodejs Türkçe Medium Yazıları](https://medium.com/@nodejs_tr)
 
-[Slack Grubu](https://iojstr.slack.com/)
-## Medium Yazı Toplulukları
+## Yararlı Linkler
 
-[nodejs_tr Haftalık Bülten Yazıları ](https://medium.com/iojs-haftalik-bulten)
+[Sorularınız için](https://plus.google.com/communities/102219910544377809997).
 
-[nodejs Hakkında Türkçe Yazılar ](https://medium.com/iojs-hakkinda-yazilar)
+[Nodejs](https://gitter.im/nodejs/nodejs-tr) ile ilgili konuşabileceğiniz chat kanalı.
 
-
-## node.js Türkiye Ekibi
+## Nodejs Türkiye Ekibi
 
 - Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
 - Ayhan KURU ([@ayhankuru](https://github.com/ayhankuru))
