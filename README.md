@@ -14,14 +14,12 @@
 
 [Node.js](https://gitter.im/nodejs/nodejs-tr) ile ilgili konuşabileceğiniz chat kanalı.
 
-## Node.js Türkiye Ekibi
+## Node.js Türkiye Çeviri Ekibi
 
-- Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
-- Ayhan KURU ([@ayhankuru](https://github.com/ayhankuru))
-- Enver Arslan ([@enverarslan](https://github.com/enverarslan))
-- Behcet ([@behcet-li](https://github.com/behcet-li))
-- Mustafa Özgüner ([@mustafaozguner](https://github.com/mustafaozguner))
 - Barış Güler ([@hwclass](https://github.com/hwclass))
-
+- Enver Arslan ([@enverarslan](https://github.com/enverarslan))
+- Serkan KOCAMAN ([@KiPSOFT](https://github.com/kipsoft))
+- Gökay Gürcan ([@gokaygurcan](https://github.com/gokaygurcan))
+- Yasin Aydin ([@yasinaydin](https://github.com/yasinaydin))
 
 Lütfen bu açık platformun, ülkemizde yayılması için Türkiye takımına destek olalım.
