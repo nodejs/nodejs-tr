@@ -16,7 +16,7 @@
 
 ## Node.js Türkiye Çeviri Ekibi
 - Ayhan Kuru ([@c0b41](https://github.com/c0b41))
-- Behcet ([@behcet-li](https://github.com/behcet-li))
+- Behcet ([@behcet](https://github.com/behcet))
 - Barış Güler ([@hwclass](https://github.com/hwclass))
 - Enver Arslan ([@enverarslan](https://github.com/enverarslan))
 - Mustafa Özgüner([@mzgnr](https://github.com/mzgnr)
