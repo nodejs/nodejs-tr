@@ -15,7 +15,6 @@
 [Node.js](https://gitter.im/nodejs/nodejs-tr) ile ilgili konuşabileceğiniz chat kanalı.
 
 ## Node.js Türkiye Çeviri Ekibi
-- Ayhan Kuru ([@c0b41](https://github.com/c0b41))
 - Behcet ([@behcet](https://github.com/behcet))
 - Barış Güler ([@hwclass](https://github.com/hwclass))
 - Enver Arslan ([@enverarslan](https://github.com/enverarslan))
