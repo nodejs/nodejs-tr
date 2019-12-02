@@ -3,43 +3,45 @@
 Bu sözlüğün oluşturulmasının amacı çevirilerde sıkça tekrar eden terim ve sözcüklerin yazarlar tarafından tutarlılıkla kullanılmasını sağlamak ve diğer dillerdeki dökümanlardan gelenler için başlama noktası oluştururmaktır.
 Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirlenmesinde yardımcı olacaktır.
 
-#####İçerik
-[a](#a) -
-[b](#b) -
-[c](#c) -
-[d](#d) -
-[e](#e) -
-[f](#f) -
-[g](#g) -
-[h](#h) -
-[i](#i) -
-[j](#j) -
-[k](#k) -
-[l](#l) -
-[m](#m) -
-[n](#n) -
-[o](#o) -
-[p](#p) -
-[q](#q) -
-[r](#r) -
-[s](#s) -
-[t](#t) -
-[u](#u) -
-[v](#v) -
-[w](#w) -
-[x](#x) -
-[y](#y) -
-[z](#z) -
+##### İçerik
+ [a](#a)
+ [b](#b)
+ [c](#c)
+ [d](#d)
+ [e](#e)
+ [f](#f)
+ [g](#g)
+ [h](#h)
+ [i](#i)
+ [j](#j)
+ [k](#k)
+ [l](#l)
+ [m](#m)
+ [n](#n)
+ [o](#o)
+ [p](#p)
+ [q](#q)
+ [r](#r)
+ [s](#s)
+ [t](#t)
+ [u](#u)
+ [v](#v)
+ [w](#w)
+ [x](#x)
+ [y](#y)
+ [z](#z)
+ 
+ ___
 
-#A
+## A
  * Arrow Functions: Ok Fonksiyonları
  * Assertion: Kontrol Fonksiyonu
 
-#B
+## B
  * Build: İnşa Etmek
 
 
-#C
+## C
  * Const: Sabit Değişken
  * Classes: Sınıf
  * Changelog: Değişlikler Listesi
@@ -51,64 +53,64 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Constructor: 
 
 
-#D
+## D
  * Destructor: İmha eden
  * Docker: 
  * Debugging: Hata Ayıklama
 
 
-#E
+## E
 
 
-#F
+## F
  * Framework: Yapı
 
-#G
+## G
  * Generator: Üreteç
  * Governance: Yönetim Biçimi
  * Governance Model: Yönetim Modeli
 
-#H
+# H
 
 
-#İ
+## İ
  * İterator: Yineleyici
 
 
-#J
+## J
 
 
-#K
+## K
 
 
-#L
+## L
  * Let: Block Kapsamlı Değişken 
  * Localization: Yerelleştirme
 
 
-#M
+## M
  * Map: Haritalama
  
-#N
+## N
 
 
-#O
+## O
  * Object literal extensions:
 
 
-#P
+## P
  * Promises:
  * Proxies:
 
-#Q
+## Q
 
 
-#R
+## R
  * Reject: Reddetmek
  * Resolve: Çözümlemek, halletmek
  * Release: Yayın
 
-#S
+## S
  * Strict Mode: Katı Mod
  * Stream: Akış
  * Set: Ayar
@@ -118,25 +120,25 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  * Spread: Sonsuzluk
 
 
-#T
+## T
  * Template: Şablon
  * Tracing: İzleme
 
-#U
+## U
 
 
-#V
+## V
 
 
-#W
+## W
  * WeakMap:
  * WeakSet:
  * Website: Web Sayfası
 
-#X
+## X
 
 
-#Y
+## Y
 
 
-#Z
+## Z
