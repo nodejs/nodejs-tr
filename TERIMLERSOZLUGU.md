@@ -12,7 +12,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  [f](#f)
  [g](#g)
  [h](#h)
- [i](#i)
+ [i](#İ)
  [j](#j)
  [k](#k)
  [l](#l)
