@@ -12,7 +12,7 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
  [f](#f)
  [g](#g)
  [h](#h)
- [i](#İ)
+ [i](#I)
  [j](#j)
  [k](#k)
  [l](#l)
@@ -73,8 +73,8 @@ Terimler sözlüğü ayrıca Türkçe'ye çevirilmeyecek sözcüklerin de belirl
 # H
 
 
-## İ
- * İterator: Yineleyici
+## I
+ * Iterator: Yineleyici
 
 
 ## J
